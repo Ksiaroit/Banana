@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 144px;
+
+    &__logo,
+    &__download {
+        text-decoration: none;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    &__download {
+        background-color: #60CAAD;
+        color: white;
+        padding: 10px 40px
+    }
+
+    &__logo {
+        background-color: #C4C4C4;
+        color: #333;
+        padding: 10px 20px
+    }
+}
