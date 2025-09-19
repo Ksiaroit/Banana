@@ -1,0 +1,131 @@
+html{
+    font-family: sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 144px;
+    transform: translateY(px);
+}
+
+.logo-button, .download-button{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px
+}
+
+.logo-button{
+    background-color: #C4C4C4;
+    color: #333;
+    padding: 10px 20px
+}
+
+.download-button{
+    background-color: #60CAAD;
+    color: white;
+    padding: 10px 40px
+}
+
+
+.heading1 {
+    background-color: #F9F9F9; 
+    text-align: center;
+    padding-top: 169px;
+    padding-bottom: 300px;
+}
+
+.text-title{
+    font-size: 40px;
+    transform: translateY(30px);
+}
+
+.sub-copy{
+    font-size: 30px
+}
+
+.download-button2{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #60CAAD;
+    color: white;
+    padding: 25px 125px;
+    position: relative;
+    top: 48px;
+}
+
+.heading2{
+    text-align: center;
+    padding-top:80px;
+    padding-bottom:40px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+    transform: translateX(85px);
+}
+
+.col-text{
+    white-space: pre-wrap;
+    padding-top: 120px;
+    transform: translateX(-170px);
+    font-size: 20px;
+}
+.image-1{
+    width: 700px;
+    transform: translateX(-80PX);
+}
+
+
+
+.downroad-section{
+    background-color: #F9F9F9;
+    background-size: auto;
+    text-align: center;
+    padding: 100px;
+}
+.promo-text{
+    padding-top: 70px;
+    font-size: 20px;
+}
+.promo-text .slash:first-child::before{
+    content: '\\';
+    margin-right: 10px;
+} 
+.promo-text .slash:last-child::after{
+    content: '/';
+    margin-right: 10px;
+}
+.dummy-text{
+    transform:translateY(20px);
+}
+
+.download-button3{
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #60CAAD;
+    color: white;
+    padding: 25px 125px;
+}
+
+
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+
+}
